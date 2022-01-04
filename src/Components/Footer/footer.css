@@ -1,0 +1,39 @@
+.footerMain1{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.11);
+    background-image: url(https://www.bookmyfarm.com/static/assets/images/downloadapp-home.png);
+
+    
+}
+.footerMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-image: url(https://www.bookmyfarm.com/static/assets/images/downloadapp-home.png); */
+    
+}
+
+.safe{
+    margin:.5em 1.1em ;
+    
+}
+.section2footer{
+    /* border: 1px solid rgb(255, 0, 242); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+}
+@media (max-width: 500px) {
+    .footerMain1{
+        font-size: small;
+    }
+}
+@media (max-width: 320px) {
+    .footerMain1{
+        font-size: x-small;
+    }
+}

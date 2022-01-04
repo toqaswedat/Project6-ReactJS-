@@ -1,0 +1,39 @@
+.ServiceDiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1em;
+    width: 80%;
+    /* justify-content: center; */
+    margin: 2em auto;
+    padding: 50px 0;
+    /* align-content: center; */
+}
+.BooKingBtn{
+    background-color: #713d61;
+    color: white;
+    border: 1px solid #713d61;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+    opacity: 0.9;
+    cursor: pointer;
+    align-items: center;
+}
+.BooKingBtn:hover{
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+    border: 1px solid #713d61;
+    color: #713d61;
+}
+
+@media (max-width:900px) {
+    .ServiceDiv{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:650px) {
+    .ServiceDiv{
+        grid-template-columns:1fr;
+    }
+}
+

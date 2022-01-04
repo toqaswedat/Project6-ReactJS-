@@ -1,0 +1,87 @@
+.contactForm{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://www.bookmyfarm.com/static/assets/images/downloadapp-home.png');
+    padding: 2em;
+}
+.contactForm input{
+    width: 60%;
+    color: #713d61;
+    border: 0;
+    /* border: 1px solid #713d61; */
+    /* background-color: hsl(0, 0%, 98%); */
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 1;
+    transition: box-shadow 0.22s ease-out;
+    height: 3rem;
+    margin: .8em 0;
+    font-weight: 600;
+
+}
+.inputInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 6px 13px #713d61;
+    /* border: 1px solid rgb(76, 0, 255); */
+    width: 40%;
+    padding: 1.4em;
+}
+.inputInfo{
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+}
+    
+@keyframes example {
+    from {top: 100px;}
+    to {top: 0px}
+}
+    
+.labelwhithinput label{
+    /* border: 1px solid rgb(255, 0, 149); */
+    width: 40%;
+    /* border: 0; */
+    /* background-color: #e3f0ff; */
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    line-height: 2.5;
+    /* transition: box-shadow 0.22s ease-out; */
+    /* height: 3rem; */
+    margin: .8em 0;
+}
+.labelwhithinput{
+    /* border: 1px solid rgb(0, 255, 55); */
+    display: flex;
+    flex-direction: row !important;
+}
+.submitForm{
+
+    margin: .5em auto;
+    /* width: 45%; */
+    opacity: 0.9;
+    /* font-family: "Proxima Nova", sans-serif; */
+    background-color: #713d61;
+    color: white;
+    border: solid 1px #713d61;
+    border-radius: 3px;
+    padding: 0.75rem 2rem 0.625rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btnLogOUt{
+    display: flex;
+}
+
+@media (max-width: 530px) {
+   .inputInfo{
+    width: 95%;
+   }
+  
+  }

@@ -1,0 +1,160 @@
+.heroImageContainer{
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-out;
+}
+.heroImageContainer .shopNowBtn{
+    background-color: var(--grayBlue);
+    color: #ffff;
+    margin: 0 auto 20px auto;
+    border: none;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.heroImageContainer .shopNowBtn a{
+    text-decoration: none;
+    color: unset;
+}
+.heroImageContainer .shopNowBtn:hover{
+    background-color: var(--darkBlue);
+}
+.toggeleSlider{
+    display: flex;
+    justify-content: center;
+}
+.toggeleSlider button{
+    cursor: pointer;
+    border:1px solid gray;
+    background-color: gray;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin:10px;
+}
+.buttonsArea{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(100, 101, 104, 0.746);
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+.buttonsArea >p{
+    font-size: 3.5em;
+    color: #ffff;
+}
+
+.menuPage{
+    height: 5em;
+    color: #ffff !important;
+    border: 3px #ffff solid;
+    font-size: large;
+    display: block;
+    width: 100%;
+    background-color: #7e5170;
+    /* background-image: url('https://www.bookmyfarm.com/static/assets/images/downloadapp-home.png'); */
+    border: 3px solid #7e5170;
+    
+}
+
+.menuPage a{
+
+    color: #ffff;
+    text-decoration: none;
+
+}
+.section1Home{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+}
+.sectionhome {
+    margin: .5em;
+    /* border: 1px solid red; */
+    /* color: rgb(0, 17, 255); */
+    /* border: 2px solid rgb(0, 255, 136); */
+    font-size: 1.7em;
+    /* width: 55%; */
+    grid-area: area;
+}
+.section2home button{
+    
+    width: 25em;
+    height: 5em;
+    border-radius: 5em;
+    background-color: RGB(113, 61, 97);
+    color: #ffff;
+}
+.imge1home{
+    /* border: 1px solid gold; */
+    /* width: 20%; */
+    height: 90%;
+    margin: .9em;
+    opacity: .7;
+    background-repeat: no-repeat;
+}
+.imge1home img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.ImgeandSectionone{
+    display: grid;
+    grid-template-areas:"area area..."  ;
+    /* justify-content: center; */
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid rgb(0, 255, 170); */
+}
+
+
+@media screen and (max-width:610px) {
+    .buttonsArea{
+        font-size: 0.7em;
+    }
+    .imge1home{
+        display: none;
+    }
+}
+@media (max-width :840px) {
+    .ImgeandSectionone{
+    grid-template-areas:"area..."  ;
+width: 100%;
+        /* font-size: small; */
+    }
+    .imge1home{
+        /* width: 30%; */
+        margin: auto;
+    }
+}
+
+@media (max-width :500px){
+    .sectionhome{
+        font-size: 1.1 em;
+    }
+    .section2home button{
+    
+        width: 15em;
+        height: 3em;
+        /* align-items: center; */
+    }
+}
+@media (max-width :380px){
+   
+    .sectionhome{
+        width: 90%;
+    }
+
+}

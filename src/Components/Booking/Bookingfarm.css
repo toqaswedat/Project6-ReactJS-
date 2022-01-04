@@ -1,0 +1,37 @@
+.InfoFarmSelect{
+    margin-top: .7em;
+}
+.InfoFarmSelectMain{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 80%;
+    gap: 1em;
+}
+.mainBooking{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    height: 110vh;
+}
+.calenderBooking{
+    width: 100%;
+
+}
+
+
+@media (max-width :800px ) {
+    .InfoFarmSelectMain{
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 auto ; */
+          align-items: center;
+    }
+    .mainBooking{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        margin: 2em;
+
+    }
+
+}

@@ -1,0 +1,80 @@
+.LogInToqa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ffffff; */
+    background-image: url('https://www.bookmyfarm.com/static/assets/images/downloadapp-home.png');
+
+    /* padding: 70px 0; */
+  }
+  
+  
+  
+  .LogInForm {
+    /* border:  1px green solid; */
+    /* height: 50%; */
+    width: 35%;
+    padding: 70px 0;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.103);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2%;
+  }
+  .contactLogInForm {
+    /* border: 1px solid red; */
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+  }
+  .contactLogInForm input {
+    display: block;
+    width: 90%;
+    border: 0;
+    background-color: #e3f0ff;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    line-height: 1;
+    transition: box-shadow 0.22s ease-out;
+    height: 3rem;
+    margin: .8em 0;
+  }
+ 
+  .submitLoginForm {
+    margin: 8px 0;
+    width: 95%;
+    opacity: 0.9;
+    /* font-family: "Proxima Nova", sans-serif; */
+    background-color: #713d61;
+    color: white;
+    border: solid 1px #713d61;
+    border-radius: 3px;
+    padding: 0.75rem 2rem 0.625rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1000px) {
+    .TitleLogInAndImg {
+      display: none;
+    }
+  
+    .LogInForm {
+      width: 90%;
+    }
+  
+  }
+  
+  @media (max-width:350px) {
+    .LoginFormMe{
+      font-size:.9em ;
+    }
+  }
+  

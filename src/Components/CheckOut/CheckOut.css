@@ -1,0 +1,146 @@
+.CheckoutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px 0 70px 0;
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    /* max-width: 960px !important; */
+  }
+  .container{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .CheckoutContainer form input {
+    display: block;
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    width: 480px;
+    margin-bottom: 16px;
+  }
+  
+  .flname input {
+    display: inline !important;
+    width: 224px !important;
+    margin-right: 6px;
+  }
+  .Copon{
+      display: flex;
+      justify-content: space-between;
+  }
+  .Copon input {
+    display: inline !important;
+    width: 44% !important;
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin-bottom: 16px;
+  }
+  
+  .CheckoutContainer hr {
+    opacity: 0.25;
+    width: 480px;
+  }
+  
+  .CheckoutContainer form button {
+        width: 503px;
+        padding: 10px 0;
+        font-weight: 500;
+        border: 1px solid #713d61;
+        background-color: #713d61;
+        color: white;
+        border-radius: 5px;
+  }
+  
+  .CheckoutContainer form button:hover {
+        border-color: #713d61;
+        background-color: #713d61;
+        transition: all .5s ease-in-out;
+  }
+  .Copon button{
+    width: 50%;
+    /* padding: 10px 0; */
+    font-weight: 500;
+    border: 1px solid #713d61;
+    background-color: #713d61;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    /* padding: 0.375rem 0.75rem; */
+
+
+}
+.Copon button:hover {
+    border-color: #713d61;
+    background-color: #713d61;
+    transition: all .5s ease-in-out;
+}
+.titletable {
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    padding: .5em;
+    padding-left: 1.9em;
+    border-bottom: 1px solid #713d61;
+    /* border: 1px solid rgb(0, 26, 255); */
+}
+.tablebooking{
+    /* border: 1px solid rgb(0, 255, 64); */
+    display: flex;
+    flex-direction: column;
+
+}
+.tebleitem{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    padding: .5em;
+}
+.divtotalResult{
+    /* border: 2px solid rgb(255, 0, 21); */
+    border-top: 1px solid #713d61;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    margin-top: .5em;
+    color: #713d61;
+
+}
+.totalResult1{
+  grid-column: 1 /span 3;
+}
+
+  
+  @media (max-width: 555px) {
+    
+    .CheckoutContainer form input{
+      max-width: 250px !important;
+    }
+    .CheckoutContainer form button {
+      max-width: 250px;
+    }
+    .CheckoutContainer hr {
+      max-width: 250px;
+    }
+    .flname input{
+      min-width: 250px !important;
+    }
+    .Copon{
+      flex-direction: column;
+      /* width: 38em; */
+    }
+    .Copon button{
+      height: 3em;
+    }
+  }
